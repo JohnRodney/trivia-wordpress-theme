@@ -1,8 +1,19 @@
 /*
-Theme Name: Start WordPress
-Author: Tania Rascia
-Description: Bootstrap Blog template converted to WordPress
+Theme Name: Triviaphillia.com custom theme
+Author: Jrod and Dave
+Description: The best trivia wordpress theme EVER .. PEROID
 Version: 0.0.1
-Tags: bootstrap
+Tags: yee
 */
 
+*, html{
+  padding: 0;
+  margin: 0;
+  transition: 1s ease-in-out;
+}
+html{
+  margin-top: 0;
+}
+.nav > div{
+  padding: 0 20px;
+}
