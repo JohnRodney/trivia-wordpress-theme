@@ -1,6 +1,6 @@
 <?php
 function styles() {
-  wp_enqueue_style('core', get_template_directory_uri() . '/style.css?ver=' . time(), false );
+  wp_enqueue_style('core', get_template_directory_uri() . '/style.css', '', rand(1, 998999898999) );
 }
 
 function scripts() {

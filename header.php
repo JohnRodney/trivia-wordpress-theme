@@ -13,17 +13,23 @@
   </head>
 
   <body>
-    <nav class='nav'>
-      <div class="nav-wrapper yellow darken-4">
-        <a href="index.html" class="brand-logo"><img class='logo' src="<?php echo get_template_directory_uri() . '/pictures/logo.png' ?>"></a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="comeandplay.html">COME AND PLAY</a></li>
-          <li><a href="hire.html">HIRE</a></li>
-          <li><a href="about.html">ABOUT</a></li>
-          <li><a href="contact.html">CONTACT</a></li>
-          <li><a href="merch.html">MERCH</a></li>
-          <li><a href="login.html">LOGIN</a></li>
-        </ul>
-      </div>
-    </nav>
+    <div class="row">
+      <nav class='nav'>
+        <div class="nav-wrapper yellow darken-4">
+          <div class="col s1"></div>
+          <div class="col s10">
+            <a href="index.html" class="brand-logo"><img class='logo' src="<?php echo get_template_directory_uri() . '/pictures/logo.png' ?>"></a>
 
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a href="comeandplay.html">COME AND PLAY</a></li>
+              <li><a href="hire.html">HIRE</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+              <li><a href="merch.html">MERCH</a></li>
+              <li><a href="login.html">LOGIN</a></li>
+            </ul>
+          </div>
+          <div class="col s1"></div>
+        </div>
+      </nav>
+    </div>
