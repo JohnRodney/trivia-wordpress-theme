@@ -17,3 +17,8 @@ html{
 .nav > div{
   padding: 0 20px;
 }
+
+.logo {
+  height: 55px;
+  width: auto;
+}

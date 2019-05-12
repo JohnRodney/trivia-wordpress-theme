@@ -15,7 +15,7 @@
   <body>
     <nav class='nav'>
       <div class="nav-wrapper yellow darken-4">
-        <a href="index.html" class="brand-logo"><img src='newLogo.jpg'></a>
+        <a href="index.html" class="brand-logo"><img class='logo' src="<?php echo get_template_directory_uri() . '/pictures/logo.png' ?>"></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="comeandplay.html">COME AND PLAY</a></li>
           <li><a href="hire.html">HIRE</a></li>
