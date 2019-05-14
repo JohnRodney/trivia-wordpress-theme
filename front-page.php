@@ -9,10 +9,9 @@
             echo apply_filters( 'the_content', get_post( get_option( 'page_on_front' ) )->post_content );
           }
         ?>
-          
+
       </div>
       </div>
       <div class='col s1'>
       </div>
-  </body>
-</html>
+    <?php get_footer() ?>
