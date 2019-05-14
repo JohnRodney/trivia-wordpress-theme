@@ -14,9 +14,10 @@
               echo apply_filters( 'the_content', get_post( get_option( 'page' ) )->post_content );
             }
           ?>
-
         </div>
       </div>
       <div class='col s1'>
       </div>
+    </div>
+
 <?php get_footer() ?>

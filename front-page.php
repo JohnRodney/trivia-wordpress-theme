@@ -11,7 +11,7 @@
         ?>
 
       </div>
-      </div>
       <div class='col s1'>
       </div>
+    </div>
     <?php get_footer() ?>
