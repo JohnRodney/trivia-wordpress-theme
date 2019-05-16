@@ -11,7 +11,6 @@ get_header(); ?>
         
         <div class="main-content">
             
-            <?php get_sidebar(); ?>
             
             <div class="left-page-content col-lg-10 col-md-10 col-sm-9 col-xs-12">
                 

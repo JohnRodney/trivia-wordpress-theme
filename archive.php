@@ -1,6 +1,6 @@
 <?php
 /* Template Name: Archive */
-get_header() ?>
+get_header(); ?>
 
     <div id="container">
 	  <div id="content" role="main">
